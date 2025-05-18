@@ -1,5 +1,5 @@
 import { Hanken_Grotesk, Poppins } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${grotesk.variable} antialiased`}>
+      <body className={`${poppins.className} ${grotesk.variable} antialiased`}>
         {children}
       </body>
     </html>
