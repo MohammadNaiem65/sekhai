@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+@theme {
+  --font-poppins: var(--font-poppins);
+  --font-grotesk: var(--font-hanken-grotesk);
+
+  --color-base: #0F68A0;
+  --color-text-light: #E7F0F6;
+  --color-text-dark: #010A10;
+  --color-title-one: #0B4970;
+  --color-title-two: #083450;
+  --color-title-light: #E7F0F6;
+  --color-button: #093E60;
+  --color-stroke: #B7D2E3;
+  --color-gray: #A4A4A4;
+  --color-white: #FFFFFF;
+
+  --text-body: 1rem;
+  --text-body--line-height: auto;
+  --text-button: 0.875rem;
+  --text-button--line-height: auto;
+  --text-card-title: 1.125rem;
+  --text-card-title--line-height: auto;
+  --text-section-heading: 1.5rem;
+  --text-section-heading--line-height: auto;
+  --text-hero-headline: 3rem;
+  --text-hero-headline--line-height: auto;
+  --text-description: 0.875rem;
+  --text-description--line-height: auto;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  p,
+  a,
+  li,
+  button {
+    color: var(--color-text-light);
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
