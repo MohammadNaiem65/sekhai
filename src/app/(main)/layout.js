@@ -1,3 +1,4 @@
+import Footer from "@/components/shared/footer/footer";
 import Navbar from "@/components/shared/navbar/navbar";
 import NotifyBar from "@/components/shared/notifyBar/notifyBar";
 import { Hanken_Grotesk, Poppins } from "next/font/google";
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <NotifyBar />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
