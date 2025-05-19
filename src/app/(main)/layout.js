@@ -1,4 +1,5 @@
 import Navbar from "@/components/shared/navbar/navbar";
+import NotifyBar from "@/components/shared/notifyBar/notifyBar";
 import { Hanken_Grotesk, Poppins } from "next/font/google";
 import "../globals.css";
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.className} ${grotesk.variable} antialiased`}>
+        <NotifyBar />
         <Navbar />
         {children}
       </body>
