@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 const grotesk = Hanken_Grotesk({
-  variable: "--font-hanken-grotesk",
+  variable: "--font-hanken_grotesk",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });

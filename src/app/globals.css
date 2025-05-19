@@ -5,7 +5,7 @@
 
 @theme {
   --font-poppins: var(--font-poppins);
-  --font-grotesk: var(--font-hanken-grotesk);
+  --font-hanken_grotesk: var(--font-hanken_grotesk);
 
   --color-base: #0F68A0;
   --color-text-light: #E7F0F6;
@@ -153,6 +153,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
