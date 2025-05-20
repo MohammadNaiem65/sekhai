@@ -6,7 +6,7 @@ import { CenterLInks } from "./centerLinks";
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-5 mx-[7.5rem] my-4 flex items-center justify-between">
+    <nav className="sticky top-0 z-[99] flex w-full items-center justify-between bg-white px-[7.5rem] py-4">
       <Image src="/logo.png" alt="logo" width={180} height={60} />
 
       <CenterLInks />
