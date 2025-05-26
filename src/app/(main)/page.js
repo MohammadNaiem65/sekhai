@@ -1,5 +1,6 @@
 import Hero from "@/components/home/hero";
 import MasonrySection from "@/components/home/masonrySection/masonrySection";
+import MentorCTA from "@/components/home/mentorCTA/mentorCTA";
 import MentorSliderOne from "@/components/home/mentorSliderOne/mentorSliderOne";
 import MentorSliderTwo from "@/components/home/mentorSliderTwo/mentorSliderTwo";
 import OnDemandSkillsPromo from "@/components/home/OnDemandSkillsPromo";
@@ -20,6 +21,7 @@ export default function Home() {
       <SkillCTATwo />
       <Studybit />
       <PopularProducts />
+      <MentorCTA />
     </>
   );
 }
