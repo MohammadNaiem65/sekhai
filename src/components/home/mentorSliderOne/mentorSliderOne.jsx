@@ -5,13 +5,13 @@ import Carousel from "./carousel";
 export default function MentorSliderOne() {
   return (
     <section className="mt-[6.25rem] h-[44.813rem] w-full bg-[#F4FAFF] pt-[7.5rem]">
-      <div className="relative container-width flex items-center justify-between">
+      <div className="relative container-width flex items-center justify-end">
         <Image
           alt="chef image"
           src="/chef.png"
           width={529}
           height={581}
-          className=""
+          className="absolute top-0 -left-[53px]"
         />
 
         <section className="w-[37.5rem]">
