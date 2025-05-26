@@ -5,6 +5,7 @@ import MentorSliderTwo from "@/components/home/mentorSliderTwo/mentorSliderTwo";
 import OnDemandSkillsPromo from "@/components/home/OnDemandSkillsPromo";
 import SkillCTAOne from "@/components/home/skillCTAOne/skillCTAOne";
 import SkillCTATwo from "@/components/home/skillCTATwo/skillCTATwo";
+import Studybit from "@/components/home/studybit/studybit";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <SkillCTAOne />
       <MentorSliderTwo />
       <SkillCTATwo />
+      <Studybit />
     </>
   );
 }
