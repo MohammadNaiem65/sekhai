@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
@@ -8,7 +8,6 @@ import { Input } from "../ui/input";
 export default function Hero() {
   const [query, setQuery] = useState("");
   const [hasFocused, setHasFocused] = useState(false);
-  const inputRef = useRef();
 
   return (
     <section className="body-font relative isolate h-[24rem] overflow-hidden bg-title-two bg-scroll bg-repeat-x text-gray-600 after:absolute after:inset-0 after:-z-[1] after:bg-[url('/hero-mesh.png')] after:opacity-25 after:content-['']">
@@ -25,7 +24,6 @@ export default function Hero() {
           <div className="relative mx-auto mt-11 flex h-14 w-[32.125rem] justify-center rounded-full bg-white">
             <Input
               className="absolute top-0 left-0 z-1 h-14 w-[32.125rem] rounded-full pr-[10rem] pl-[37px] text-text-dark"
-              ref={inputRef}
               value={query}
               onFocusCapture={() => setHasFocused(true)}
               onBlur={() => setHasFocused(false)}
