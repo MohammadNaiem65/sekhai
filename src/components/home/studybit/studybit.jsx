@@ -11,6 +11,14 @@ export default function Studybit() {
       <Content />
 
       <div className="flex items-center justify-between">
+        <Image
+          src="/multiple-star.png"
+          alt="stars icon"
+          width={60}
+          height={78}
+          className="mb-16"
+        />
+
         <Image src="/mentor.png" alt="mentor image" width={234} height={327} />
 
         <Button
