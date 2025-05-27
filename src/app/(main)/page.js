@@ -9,6 +9,7 @@ import SkillCTAOne from "@/components/home/skillCTAOne/skillCTAOne";
 import SkillCTATwo from "@/components/home/skillCTATwo/skillCTATwo";
 import Stats from "@/components/home/stats/stats";
 import Studybit from "@/components/home/studybit/studybit";
+import Testimonials from "@/components/home/testimonials/testimonials";
 import VideoSection from "@/components/home/videoSection/videoSection";
 import WhySekhai from "@/components/home/whySekhai/whySekhai";
 
@@ -28,6 +29,7 @@ export default function Home() {
       <VideoSection />
       <WhySekhai />
       <Stats />
+      <Testimonials />
     </>
   );
 }
