@@ -9,6 +9,7 @@ import SkillCTAOne from "@/components/home/skillCTAOne/skillCTAOne";
 import SkillCTATwo from "@/components/home/skillCTATwo/skillCTATwo";
 import Studybit from "@/components/home/studybit/studybit";
 import VideoSection from "@/components/home/videoSection/videoSection";
+import WhySekhai from "@/components/home/whySekhai/whySekhai";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <PopularProducts />
       <MentorCTA />
       <VideoSection />
+      <WhySekhai />
     </>
   );
 }
