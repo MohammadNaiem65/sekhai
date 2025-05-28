@@ -9,14 +9,16 @@ export default function RightContent() {
       <h3 className="mt-6 text-2xl font-medium text-white">
         Your Journey Starts Here
       </h3>
+
       <Button
         variant="secondary"
-        className="mt-5 rounded-sm [font-size:_14px] text-base"
+        className="relative isolate mt-5 overflow-hidden rounded-sm [font-size:_14px] text-base before:absolute before:-top-full before:-left-2/4 before:-z-1 before:h-[200%] before:w-[200%] before:-rotate-45 before:bg-[linear-gradient(0deg,_transparent,_transparent_30%,_#a4a4a4)] before:opacity-0 before:transition-all before:duration-[0.5s] before:ease-[ease] before:content-[''] hover:bg-white hover:before:translate-y-[200%] hover:before:-rotate-45 hover:before:opacity-100"
       >
         Register Now
       </Button>
-      <small className="absolute right-6 bottom-3 text-white underline underline-offset-5">
-        Terms and Conditions
+
+      <small className="absolute right-6 bottom-3 text-xs text-white underline underline-offset-5">
+        <sup className="-top-1 text-sm">*</sup>Terms and Conditions
       </small>
 
       <Image

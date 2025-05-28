@@ -37,7 +37,7 @@ export default function SeparatedCard({ contentFirst = true }) {
           className="absolute bottom-0 left-0 flex h-[3.75rem] w-full items-center justify-between bg-[#F6F7F9] px-4 text-title-one"
         >
           Smart Home Automation{" "}
-          <IoIosArrowForward className="size-7 rounded-full border border-base p-1 text-base" />
+          <IoIosArrowForward className="size-7 rounded-full border border-base p-1 text-base hover:bg-title-one hover:text-white" />
         </Link>
       </div>
     </div>

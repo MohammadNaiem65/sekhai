@@ -28,7 +28,7 @@ export default function NormalCard({ contentFirst = true }) {
           living experience.
         </p>
         <Link href="/" className="mt-1.5 ml-auto block w-fit text-title-one">
-          <IoIosArrowForward className="size-7 rounded-full border border-base p-1 text-base" />
+          <IoIosArrowForward className="size-7 rounded-full border border-base p-1 text-base hover:bg-title-one hover:text-white" />
         </Link>
       </div>
     </div>

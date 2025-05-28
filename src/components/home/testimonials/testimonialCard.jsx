@@ -5,14 +5,14 @@ export default function TestimonialCard() {
   return (
     <Card className="border-0 py-8 shadow-none">
       <CardContent className="px-5">
-        <p className="text-body text-gray">
+        <p className="text-center text-body font-light text-gray italic">
           "This platform completely transformed my learning experience! The
           courses are well structured, and the mentors are super supportive.
           Highly recommended!"
         </p>
       </CardContent>
 
-      <CardFooter className="flex items-center gap-x-2">
+      <CardFooter className="flex items-center justify-center gap-x-2">
         <Image
           src="/chef-2.png"
           alt="user image"

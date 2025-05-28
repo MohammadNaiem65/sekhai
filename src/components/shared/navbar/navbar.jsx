@@ -12,7 +12,9 @@ export default function Navbar() {
       <CenterLInks />
 
       <Button className="flex h-[3.75rem] flex-col px-6 py-2">
-        <span className="text-[1.125rem] font-semibold">Study Bit</span>
+        <span className="text-[1.125rem] leading-4 font-semibold">
+          Study Bit
+        </span>
         <span className="text-[0.625rem] font-bold">Which skill to learn?</span>
       </Button>
     </nav>
